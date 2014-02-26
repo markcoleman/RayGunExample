@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EFDB90518BD71A700AB794E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFDB90418BD71A700AB794E /* Foundation.framework */; };
+		0EFDB90718BD71A700AB794E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFDB90618BD71A700AB794E /* CoreGraphics.framework */; };
+		0EFDB90918BD71A700AB794E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFDB90818BD71A700AB794E /* UIKit.framework */; };
+		0EFDB90F18BD71A700AB794E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EFDB90D18BD71A700AB794E /* InfoPlist.strings */; };
+		0EFDB91118BD71A700AB794E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDB91018BD71A700AB794E /* main.m */; };
+		0EFDB91518BD71A700AB794E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDB91418BD71A700AB794E /* AppDelegate.m */; };
+		0EFDB91818BD71A700AB794E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFDB91618BD71A700AB794E /* Main_iPhone.storyboard */; };
+		0EFDB91B18BD71A700AB794E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFDB91918BD71A700AB794E /* Main_iPad.storyboard */; };
+		0EFDB91E18BD71A700AB794E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDB91D18BD71A700AB794E /* MasterViewController.m */; };
+		0EFDB92118BD71A700AB794E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDB92018BD71A700AB794E /* DetailViewController.m */; };
+		0EFDB92318BD71A700AB794E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFDB92218BD71A700AB794E /* Images.xcassets */; };
+		0EFDB92A18BD71A700AB794E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFDB92918BD71A700AB794E /* XCTest.framework */; };
+		0EFDB92B18BD71A700AB794E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFDB90418BD71A700AB794E /* Foundation.framework */; };
+		0EFDB92C18BD71A700AB794E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFDB90818BD71A700AB794E /* UIKit.framework */; };
+		0EFDB93418BD71A700AB794E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EFDB93218BD71A700AB794E /* InfoPlist.strings */; };
+		0EFDB93618BD71A700AB794E /* RayGunExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDB93518BD71A700AB794E /* RayGunExampleTests.m */; };
+		854C635E1D3F436C8D75C8EC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0692DA6A62354E6ABF23E30E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EFDB92D18BD71A700AB794E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EFDB8F918BD71A700AB794E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EFDB90018BD71A700AB794E;
+			remoteInfo = RayGunExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0692DA6A62354E6ABF23E30E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECBB80818BD78CD009A4F6D /* libPods-Raygun4iOS.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-Raygun4iOS.a"; path = "Pods/build/Debug-iphoneos/libPods-Raygun4iOS.a"; sourceTree = "<group>"; };
+		0EFDB90118BD71A700AB794E /* RayGunExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayGunExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFDB90418BD71A700AB794E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EFDB90618BD71A700AB794E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EFDB90818BD71A700AB794E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EFDB90C18BD71A700AB794E /* RayGunExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RayGunExample-Info.plist"; sourceTree = "<group>"; };
+		0EFDB90E18BD71A700AB794E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EFDB91018BD71A700AB794E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EFDB91218BD71A700AB794E /* RayGunExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RayGunExample-Prefix.pch"; sourceTree = "<group>"; };
+		0EFDB91318BD71A700AB794E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EFDB91418BD71A700AB794E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EFDB91718BD71A700AB794E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0EFDB91A18BD71A700AB794E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0EFDB91C18BD71A700AB794E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0EFDB91D18BD71A700AB794E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0EFDB91F18BD71A700AB794E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0EFDB92018BD71A700AB794E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0EFDB92218BD71A700AB794E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0EFDB92818BD71A700AB794E /* RayGunExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayGunExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFDB92918BD71A700AB794E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0EFDB93118BD71A700AB794E /* RayGunExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RayGunExampleTests-Info.plist"; sourceTree = "<group>"; };
+		0EFDB93318BD71A700AB794E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EFDB93518BD71A700AB794E /* RayGunExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RayGunExampleTests.m; sourceTree = "<group>"; };
+		374385AC3DCA4C38AF962A66 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EFDB8FE18BD71A700AB794E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFDB90718BD71A700AB794E /* CoreGraphics.framework in Frameworks */,
+				0EFDB90918BD71A700AB794E /* UIKit.framework in Frameworks */,
+				0EFDB90518BD71A700AB794E /* Foundation.framework in Frameworks */,
+				854C635E1D3F436C8D75C8EC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFDB92518BD71A700AB794E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFDB92A18BD71A700AB794E /* XCTest.framework in Frameworks */,
+				0EFDB92C18BD71A700AB794E /* UIKit.framework in Frameworks */,
+				0EFDB92B18BD71A700AB794E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EFDB8F818BD71A700AB794E = {
+			isa = PBXGroup;
+			children = (
+				0EFDB90A18BD71A700AB794E /* RayGunExample */,
+				0EFDB92F18BD71A700AB794E /* RayGunExampleTests */,
+				0EFDB90318BD71A700AB794E /* Frameworks */,
+				0EFDB90218BD71A700AB794E /* Products */,
+				374385AC3DCA4C38AF962A66 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0EFDB90218BD71A700AB794E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EFDB90118BD71A700AB794E /* RayGunExample.app */,
+				0EFDB92818BD71A700AB794E /* RayGunExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EFDB90318BD71A700AB794E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ECBB80818BD78CD009A4F6D /* libPods-Raygun4iOS.a */,
+				0EFDB90418BD71A700AB794E /* Foundation.framework */,
+				0EFDB90618BD71A700AB794E /* CoreGraphics.framework */,
+				0EFDB90818BD71A700AB794E /* UIKit.framework */,
+				0EFDB92918BD71A700AB794E /* XCTest.framework */,
+				0692DA6A62354E6ABF23E30E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EFDB90A18BD71A700AB794E /* RayGunExample */ = {
+			isa = PBXGroup;
+			children = (
+				0EFDB91318BD71A700AB794E /* AppDelegate.h */,
+				0EFDB91418BD71A700AB794E /* AppDelegate.m */,
+				0EFDB91618BD71A700AB794E /* Main_iPhone.storyboard */,
+				0EFDB91918BD71A700AB794E /* Main_iPad.storyboard */,
+				0EFDB91C18BD71A700AB794E /* MasterViewController.h */,
+				0EFDB91D18BD71A700AB794E /* MasterViewController.m */,
+				0EFDB91F18BD71A700AB794E /* DetailViewController.h */,
+				0EFDB92018BD71A700AB794E /* DetailViewController.m */,
+				0EFDB92218BD71A700AB794E /* Images.xcassets */,
+				0EFDB90B18BD71A700AB794E /* Supporting Files */,
+			);
+			path = RayGunExample;
+			sourceTree = "<group>";
+		};
+		0EFDB90B18BD71A700AB794E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EFDB90C18BD71A700AB794E /* RayGunExample-Info.plist */,
+				0EFDB90D18BD71A700AB794E /* InfoPlist.strings */,
+				0EFDB91018BD71A700AB794E /* main.m */,
+				0EFDB91218BD71A700AB794E /* RayGunExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EFDB92F18BD71A700AB794E /* RayGunExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EFDB93518BD71A700AB794E /* RayGunExampleTests.m */,
+				0EFDB93018BD71A700AB794E /* Supporting Files */,
+			);
+			path = RayGunExampleTests;
+			sourceTree = "<group>";
+		};
+		0EFDB93018BD71A700AB794E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EFDB93118BD71A700AB794E /* RayGunExampleTests-Info.plist */,
+				0EFDB93218BD71A700AB794E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EFDB90018BD71A700AB794E /* RayGunExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFDB93918BD71A700AB794E /* Build configuration list for PBXNativeTarget "RayGunExample" */;
+			buildPhases = (
+				21E3B2CD08634BBCA4FF9FBA /* Check Pods Manifest.lock */,
+				0EFDB8FD18BD71A700AB794E /* Sources */,
+				0EFDB8FE18BD71A700AB794E /* Frameworks */,
+				0EFDB8FF18BD71A700AB794E /* Resources */,
+				DAC00078C51E461A8F3B7A72 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RayGunExample;
+			productName = RayGunExample;
+			productReference = 0EFDB90118BD71A700AB794E /* RayGunExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EFDB92718BD71A700AB794E /* RayGunExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFDB93C18BD71A700AB794E /* Build configuration list for PBXNativeTarget "RayGunExampleTests" */;
+			buildPhases = (
+				0EFDB92418BD71A700AB794E /* Sources */,
+				0EFDB92518BD71A700AB794E /* Frameworks */,
+				0EFDB92618BD71A700AB794E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EFDB92E18BD71A700AB794E /* PBXTargetDependency */,
+			);
+			name = RayGunExampleTests;
+			productName = RayGunExampleTests;
+			productReference = 0EFDB92818BD71A700AB794E /* RayGunExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EFDB8F918BD71A700AB794E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Coleman, Mark";
+				TargetAttributes = {
+					0EFDB90018BD71A700AB794E = {
+						DevelopmentTeam = 93AGNBMHN5;
+					};
+					0EFDB92718BD71A700AB794E = {
+						TestTargetID = 0EFDB90018BD71A700AB794E;
+					};
+				};
+			};
+			buildConfigurationList = 0EFDB8FC18BD71A700AB794E /* Build configuration list for PBXProject "RayGunExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EFDB8F818BD71A700AB794E;
+			productRefGroup = 0EFDB90218BD71A700AB794E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EFDB90018BD71A700AB794E /* RayGunExample */,
+				0EFDB92718BD71A700AB794E /* RayGunExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EFDB8FF18BD71A700AB794E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFDB91B18BD71A700AB794E /* Main_iPad.storyboard in Resources */,
+				0EFDB92318BD71A700AB794E /* Images.xcassets in Resources */,
+				0EFDB91818BD71A700AB794E /* Main_iPhone.storyboard in Resources */,
+				0EFDB90F18BD71A700AB794E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFDB92618BD71A700AB794E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFDB93418BD71A700AB794E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21E3B2CD08634BBCA4FF9FBA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC00078C51E461A8F3B7A72 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EFDB8FD18BD71A700AB794E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFDB91518BD71A700AB794E /* AppDelegate.m in Sources */,
+				0EFDB91E18BD71A700AB794E /* MasterViewController.m in Sources */,
+				0EFDB91118BD71A700AB794E /* main.m in Sources */,
+				0EFDB92118BD71A700AB794E /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EFDB92418BD71A700AB794E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFDB93618BD71A700AB794E /* RayGunExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EFDB92E18BD71A700AB794E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EFDB90018BD71A700AB794E /* RayGunExample */;
+			targetProxy = 0EFDB92D18BD71A700AB794E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EFDB90D18BD71A700AB794E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFDB90E18BD71A700AB794E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EFDB91618BD71A700AB794E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFDB91718BD71A700AB794E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0EFDB91918BD71A700AB794E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFDB91A18BD71A700AB794E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0EFDB93218BD71A700AB794E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFDB93318BD71A700AB794E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EFDB93718BD71A700AB794E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EFDB93818BD71A700AB794E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EFDB93A18BD71A700AB794E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374385AC3DCA4C38AF962A66 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RayGunExample/RayGunExample-Prefix.pch";
+				INFOPLIST_FILE = "RayGunExample/RayGunExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EFDB93B18BD71A700AB794E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374385AC3DCA4C38AF962A66 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RayGunExample/RayGunExample-Prefix.pch";
+				INFOPLIST_FILE = "RayGunExample/RayGunExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0EFDB93D18BD71A700AB794E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RayGunExample.app/RayGunExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RayGunExample/RayGunExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RayGunExampleTests/RayGunExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0EFDB93E18BD71A700AB794E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RayGunExample.app/RayGunExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RayGunExample/RayGunExample-Prefix.pch";
+				INFOPLIST_FILE = "RayGunExampleTests/RayGunExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EFDB8FC18BD71A700AB794E /* Build configuration list for PBXProject "RayGunExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFDB93718BD71A700AB794E /* Debug */,
+				0EFDB93818BD71A700AB794E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFDB93918BD71A700AB794E /* Build configuration list for PBXNativeTarget "RayGunExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFDB93A18BD71A700AB794E /* Debug */,
+				0EFDB93B18BD71A700AB794E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFDB93C18BD71A700AB794E /* Build configuration list for PBXNativeTarget "RayGunExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFDB93D18BD71A700AB794E /* Debug */,
+				0EFDB93E18BD71A700AB794E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EFDB8F918BD71A700AB794E /* Project object */;
+}
